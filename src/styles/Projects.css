@@ -1,0 +1,133 @@
+.projects-container{
+    width:100%;
+    height:3000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.portfolio{
+    font-weight: bold;
+    text-align: left;
+    font-size:20px;
+    width: 360px;
+    display: flex;
+}
+.image-container{
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: 2px solid rgb(238, 219, 193);
+}
+.project1-image{
+    background-image: url('../assets/project-images/chessProjectImage.jpg');
+}
+.project2-image{
+    background-image: url('../assets/project-images/listBuilderImage.jpg');
+}
+.project3-image{
+    background-image: url('../assets/project-images/portfolioImage.jpg');
+}
+.description-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    text-align: center; 
+    color:rgb(69, 47, 17); 
+}
+.description-container h2{
+    margin:0;
+}
+.projectSoftware{
+    font-weight: bold;
+    font-size:17px;
+}
+.playdemo-icon{
+    width: 42px;
+    height: 28px;;
+    margin-left:15px;
+}
+
+@media screen and (min-width: 375px){
+    .project-item{
+        flex-direction: column;
+        gap:15px; 
+        margin-bottom: 100px;
+    }
+    .image-container{
+        width: 360px;
+        height: 252px;
+    }
+    .description-container{
+        width: 360px; 
+        height: 270px; 
+    }
+    .portfolio{
+        font-size:20px;
+        width: 360px;
+        margin-bottom:50px;
+    }
+    .description-container h2{
+        font-size: 20px;
+    }
+    .gitLiveLinks{
+        margin-right:10px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .project-item{
+        flex-direction: row;
+        gap:20px;
+        margin-bottom: 140px;
+    }
+    .projects-container{
+        height:1500px;
+    }
+    .project-item:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+    .description-container{ 
+        height: 252px; 
+    }
+    .portfolio{
+        font-size:20px;
+        width: 740px;
+    }
+    .description-container h2{
+        font-size: 22px;
+    }
+    .gitLiveLinks{
+        margin-right:15px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .project-item{
+        gap:80px; 
+        margin-bottom: 200px;
+    }
+    .image-container{
+        width: 400px;
+        height: 280px;  
+    }
+    .description-container{
+        width: 400px; 
+        height: 280px;   
+    }
+    .portfolio{
+        font-size:22px;
+        width: 880px;
+    }
+    .description-container h2{
+        font-size: 24px;
+    }
+    .gitLiveLinks{
+        margin-right:20px;
+    }
+}

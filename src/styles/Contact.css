@@ -1,0 +1,96 @@
+.contact-container{
+    width:100%;
+    margin-top:auto;
+    display:flex;
+    flex-direction: column;
+    border-bottom: 1px solid #000;
+    background-color: rgb(238, 219, 193);
+}
+.location, .mail, .p1{
+    font-weight: bold;
+}
+.loc-mail-container p {
+    margin:3px;
+}
+.map-container, .email-container{
+    display:flex;
+    flex-direction: row;
+}
+.loc-mail-container{
+    display: flex;
+    flex-direction: column;
+    margin-left:30px;
+}
+.p1{
+    font-size: 20px;
+    margin-bottom:10px;    
+}
+.p2{
+    font-size: 18px;  
+}
+.map-icon{ 
+    width: 35px;
+    height: 35px;
+    margin-top:20%;
+}
+.email-icon{
+    width: 32px;
+    height: 32px;
+    margin-top:22%;
+    margin-left:3px;
+}
+.email-icon:hover {
+    opacity: 0.2;
+    width: 36px;
+    height: 36px;
+}
+.map-icon:hover {
+    opacity: 0.4;
+    width: 40px;
+    height: 40px;
+}
+
+@media screen and (min-width: 375px){
+    .contact-container{
+      height:9%;
+    }
+    .contact-shift{
+      margin-left:8%;
+    }
+    .email-map-container{
+      display: flex;
+      flex-direction: column;
+      margin-top:10px;
+    }
+    .email-container{
+      margin-top:10px;
+    } 
+}
+    
+@media screen and (min-width: 768px){
+    .contact-container{
+      height:200px;
+    }
+    .contact-shift{
+      margin-left:21%;
+    }
+    .email-map-container{
+      display: flex;
+      flex-direction: row;
+    }
+    .email-container{
+      margin-top: 0px;
+      margin-left: 12%;
+    }  
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+.header-container{
+    position: fixed;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    width:100%; 
+    background-color:rgb(255, 239, 219);
+    z-index:999;
+}
+.nav a{
+    text-decoration: none;
+    color:black; 
+}
+
+@media screen and (min-width: 375px){ 
+    .logo{
+      font-size: 22px;
+      margin-left:10px;
+    }
+    .nav{
+      margin-right:1%;
+    }
+    .nav a {
+      font-size:17px;
+      margin-right:6px;
+    }
+}
+      
+@media screen and (min-width: 768px){
+    .logo{
+      font-size: 22px; 
+    }
+    .nav a {
+      font-size:20px;
+    }
+}
+    
+@media screen and (min-width: 1024px){
+    .logo{
+      font-size: 26px;
+      margin-left:1.5%;
+      margin-top:1px;
+    }
+    .nav{
+      margin-top:2px;
+    }
+    .nav a {
+      font-size:22px;
+      margin-right:14px;
+    }
+    .logo:hover{
+      font-size:30px;
+    }
+    .nav a:hover{
+      text-decoration: overline;
+    }  
+}
