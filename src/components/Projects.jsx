@@ -16,7 +16,7 @@ const Projects = () => {
             <h2>Chess Application</h2>
             <p>
               Designed and developed a chess application. Structured the project with React 
-              components to handle the chessboard, game logic, and user interface elements.implemented the rules of chess, 
+              components to handle the chessboard, game logic, and user interface elements. Implemented the rules of chess, 
               piece movement, player interactions, and integrated a chat feature to enhance the user experience.
             </p>
             <p className = "projectSoftware">React and CSS</p>
